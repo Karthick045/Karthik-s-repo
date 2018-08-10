@@ -1,5 +1,8 @@
 package com.karthik.jersey.restapi;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Food {
 	
 	private String name;
