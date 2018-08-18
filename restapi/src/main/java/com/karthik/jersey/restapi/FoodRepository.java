@@ -35,4 +35,8 @@ public class FoodRepository {
 		return new Food();
 	}
 
+	public void createFood(Food food) {
+		foodList.add(food);
+	}
+
 }

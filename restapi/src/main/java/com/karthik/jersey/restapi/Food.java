@@ -5,6 +5,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Food {
 	
+	@Override
+	public String toString() {
+		return "Food [name=" + name + ", foodCode=" + foodCode + ", price=" + price + "]";
+	}
+
 	private String name;
 
 	private int foodCode;
